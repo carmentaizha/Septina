@@ -1,0 +1,153 @@
+LOCUS       NC_032092               1905 bp    DNA     linear   CON 18-APR-2022
+DEFINITION  Candida albicans SC5314 chromosome 4, complete sequence.
+ACCESSION   NC_032092 REGION: 762835..764739
+VERSION     NC_032092.1
+DBLINK      BioProject: PRJNA14005
+            BioSample: SAMN02953594
+            Assembly: GCF_000182965.3
+KEYWORDS    RefSeq.
+SOURCE      Candida albicans SC5314
+  ORGANISM  Candida albicans SC5314
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Debaryomycetaceae;
+            Candida/Lodderomyces clade; Candida.
+REFERENCE   1  (bases 1 to 1905)
+  AUTHORS   Muzzey,D., Schwartz,K., Weissman,J.S. and Sherlock,G.
+  TITLE     Assembly of a phased diploid Candida albicans genome facilitates
+            allele-specific measurements and provides a simple model for repeat
+            and indel structure
+  JOURNAL   Genome Biol. 14 (9), R97 (2013)
+   PUBMED   24025428
+REFERENCE   2  (bases 1 to 1905)
+  AUTHORS   van het Hoog,M., Rast,T.J., Martchenko,M., Grindle,S., Dignard,D.,
+            Hogues,H., Cuomo,C., Berriman,M., Scherer,S., Magee,B.B.,
+            Whiteway,M., Chibana,H., Nantel,A. and Magee,P.T.
+  TITLE     Assembly of the Candida albicans genome into sixteen supercontigs
+            aligned on the eight chromosomes
+  JOURNAL   Genome Biol. 8 (4), R52 (2007)
+   PUBMED   17419877
+REFERENCE   3  (bases 1 to 1905)
+  AUTHORS   Jones,T., Federspiel,N.A., Chibana,H., Dungan,J., Kalman,S.,
+            Magee,B.B., Newport,G., Thorstenson,Y.R., Agabian,N., Magee,P.T.,
+            Davis,R.W. and Scherer,S.
+  TITLE     The diploid genome sequence of Candida albicans
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (19), 7329-7334 (2004)
+   PUBMED   15123810
+REFERENCE   4  (bases 1 to 1905)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2022) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   5  (bases 1 to 1905)
+  AUTHORS   Muzzey,D., Schwartz,K., Weissman,J.S. and Sherlock,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2016) Department of Genetics, Candida Genome
+            Database, Stanford University, Mail Stop-5120, Stanford, CA 94305,
+            USA
+REFERENCE   6  (bases 1 to 1905)
+  CONSRTM   Candida Genome Database
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-SEP-2016) Department of Genetics, Candida Genome
+            Database, Stanford University, Mail Stop-5120, Stanford, CA 94305,
+            USA
+  REMARK    Sequence and annotation update by submitter
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to CP017626.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: Bowtie v. 1.0
+            Assembly Name         :: C_albicans_SC5314_A22
+            Long Assembly Name    :: Candida albicans SC5314 Assembly 22
+            Genome Coverage       :: 700x
+            Sequencing Technology :: Illumina GAIIx
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: CGD
+            Annotation Status   :: Full annotation
+            Annotation Version  :: A22-s07-m01-r01
+            URL                 :: http://www.candidagenome.org/
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1905
+                     /organism="Candida albicans SC5314"
+                     /mol_type="genomic DNA"
+                     /strain="SC5314"
+                     /host="Homo sapiens"
+                     /culture_collection="ATCC:MYA-2876"
+                     /db_xref="taxon:237561"
+                     /chromosome="4"
+                     /haplotype="A"
+                     /country="USA: New York"
+                     /collected_by="Margarita Silva-Hutner"
+     gene            <1..>1905
+                     /gene="HWP1"
+                     /locus_tag="CAALFM_C403570WA"
+                     /db_xref="GeneID:3645372"
+     mRNA            <1..>1905
+                     /gene="HWP1"
+                     /locus_tag="CAALFM_C403570WA"
+                     /product="Hwp1p"
+                     /transcript_id="XM_704869.2"
+                     /db_xref="GeneID:3645372"
+     CDS             1..1905
+                     /gene="HWP1"
+                     /locus_tag="CAALFM_C403570WA"
+                     /note="Hyphal cell wall protein; host transglutaminase
+                     substrate; opaque-, a-specific, alpha-factor induced; at
+                     MTLa side of conjugation tube; virulence complicated by
+                     URA3 effects; Bcr1-repressed in RPMI a/a biofilms; Spider
+                     biofilm induced"
+                     /codon_start=1
+                     /transl_table=12
+                     /product="Hwp1p"
+                     /protein_id="XP_709961.2"
+                     /db_xref="CGD:CAL0000200504"
+                     /db_xref="GeneID:3645372"
+                     /translation="MRLSTAQLIAIAYYMLSIGATVPQVDGQGETEEALIQKRSYDYY
+                     QEPCDDYPQQQQQQEPCDYPQQQQQEEPCDYPQQQPQEPCDYPQQPQEPCDYPQQPQE
+                     PCDYPQQPQEPCDNPPQPDVPCDNPPQPDVPCDNPPQPDVPCDNPPQPDVPCDNPPQP
+                     DQPDDNPPIPNIPTDWIPNIPTDWIPDIPEKPTTPATTPNIPATTTTSESSSSSSSSS
+                     SSTTPKTSASTTPESSVPATTPNTSVPTTSSESTTPATSPESSVPVTSGSSILATTSE
+                     SSSAPATTPNTSVPTTTTEAKSSSTPLTTTTEHDTTVVTVTSCSNSVCTESEVTTGVI
+                     VITSKDTIYTTYCPLTETTPVSTAPATETPTGTVSTSTEQSTTVITVTSCSESSCTES
+                     EVTTGVVVVTSEETVYTTFCPLTENTPGTDSTPEASIPPMETIPAGSEPSMPAGETSP
+                     AVPKSDVPATESAPVPEMTPAGSQPSIPAGETSPAVPKSDVSATESAPAPEMTPAGTE
+                     TKPAAPKSSAPATEPSPVAPGTESAPAGPGASSSPKSSVLASETSPIAPGAETAPAGS
+                     SGAITIPESSAVVSTTEGAIPTTLESVPLMQPSANYSSVAPISTFEGAGNNMRLTFGA
+                     AIIGIAAFLI"
+ORIGIN      
+        1 atgagattat caactgctca acttattgct atcgcttatt acatgttatc aattggggcc
+       61 actgtcccac aggtagacgg tcaaggtgaa acagaggaag ctcttattca aaagagatct
+      121 tatgattact atcaagaacc atgtgatgat tacccacaac aacaacaaca acaagagcct
+      181 tgtgattacc cacaacaaca acagcaggaa gaaccttgtg attacccaca acaacaacca
+      241 caagagccat gtgactatcc acaacagcca caagaacctt gtgactaccc acaacaacca
+      301 caagaacctt gtgactaccc acaacaacca caagaacctt gcgacaatcc acctcaacct
+      361 gatgttcctt gtgacaatcc tcctcaacct gatgttcctt gtgacaatcc tcctcaacct
+      421 gatgttcctt gtgacaatcc tcctcaacct gatgttcctt gtgacaatcc tcctcaacct
+      481 gatcagcctg atgacaatcc tcctattcca aacattccaa ccgattggat tccaaatatt
+      541 ccaactgatt ggatcccaga tatcccagaa aagccaacaa ctccagctac tactccaaac
+      601 attcctgcta caactactac ttctgaatca tcatcttctt cttcttcttc atcatcatct
+      661 actactccaa aaacttctgc ttcaactaca cctgaatctt ctgttccagc taccactcca
+      721 aacacttctg ttccaacaac ttcttcagaa tcaactactc cagctactag cccagaaagt
+      781 tctgttccag ttacttctgg atcatctatt ttagctacca cttcagaatc atcatctgct
+      841 ccagctacta ctccaaatac atctgttcca accactacta ctgaagccaa atcatcaagt
+      901 actccattaa ctactactac tgaacatgat acaactgttg tcactgttac ttcatgttct
+      961 aacagtgttt gtaccgaaag tgaagttact actggtgtta ttgtcatcac atctaaagat
+     1021 actatttaca ccacttactg tccattgact gaaactactc cagtttctac tgctccagcc
+     1081 actgaaacac caactggtac agtatccact tctactgaac aatcaactac tgttattact
+     1141 gttacttcat gttctgaaag ctcttgtacc gaatctgaag ttactactgg tgttgttgtt
+     1201 gttacttctg aggaaactgt ctacactaca ttctgtccat tgactgaaaa cactccaggt
+     1261 actgattcaa ctccagaagc ttccattcca cctatggaaa caattcctgc tggttcagaa
+     1321 ccatccatgc ctgccggtga aacctctcca gctgttccaa aatcagatgt tccagctact
+     1381 gaatcagctc cagttcctga aatgactcca gctggttcac aaccatctat tcctgccggt
+     1441 gaaacctctc cagctgttcc aaaatcagat gtttcagcta ctgaatctgc tcctgctcct
+     1501 gaaatgactc cagctggtac tgaaactaaa ccagctgctc caaaatcatc agctcctgcc
+     1561 actgaacctt ccccagttgc tccaggtact gaatctgcac cagctggtcc aggtgcttct
+     1621 tcttctccaa aatcttctgt tttggctagt gaaacctcac caattgctcc aggtgctgaa
+     1681 actgctccag ctggctcaag tggtgctatt actattccgg aatctagtgc tgtcgtctct
+     1741 acgactgaag gtgctattcc aactacatta gaatcagttc cactcatgca accatctgcc
+     1801 aattactcaa gtgtcgctcc tatttctaca tttgaaggtg ctggtaacaa catgagattg
+     1861 actttcggtg ctgctattat tggtattgct gcattcttga tctaa
+//
+
